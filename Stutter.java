@@ -100,8 +100,12 @@ private static void checkDupes (int line)
    lastdelimit = true;
    if (curWord.equals(prevWord))
    {
+	// FIXME: only print at end of repeated sequence. print # repetitions in a row.
       System.out.println ("Repeated word on line " + line + ": " +
                         prevWord+ " " + curWord);
+   } // end if
+   else{
+	// TODO: set prevWord
    }
    curWord = "";
 }  // end checkDupes
