@@ -9,7 +9,7 @@
 // of file names.
  *  Jeff Offutt, June 1989 (in C), Java version March 2003 
 ********************************************************* */
-// test github
+// test github v2
 import java.io.*;
 
 class Stutter
