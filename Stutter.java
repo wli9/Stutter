@@ -11,6 +11,8 @@
 ********************************************************* */
 // test github v2
 // test github v3
+// test github rebase v1
+// test github rebase v2
 import java.io.*;
 
 class Stutter
